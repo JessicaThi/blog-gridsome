@@ -6,13 +6,8 @@
       "external": false
     },
     {
-      "name": "About",
+      "name": "A propos",
       "link": "/about",
-      "external": false
-    },
-    {
-      "name": "Getting started",
-      "link": "/category/getting-started",
       "external": false
     }
   ],

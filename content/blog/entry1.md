@@ -1,6 +1,6 @@
 ---
 title: Petit bao
-tags: chinese, ❤︎
+tags: chinese
 category: Restaurant
 excerpt: Cuisine de Shangai, restaurant connu pour ses baos
 place: Paris, France

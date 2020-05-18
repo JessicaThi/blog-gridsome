@@ -47,10 +47,12 @@
 
     <div class="logo pt-0 pb-16 md:pb-32 md:pt-16 container mx-auto text-center text-white">
       <h2 class="m-0">
+        <g-link to="/">
         <span class="text-4xl">
-          <font-awesome :icon="['fas', 'ghost']" class="mb-1 mr-3"></font-awesome>
+          <font-awesome :icon="['fas', 'cookie-bite']" class="mb-1 mr-3"></font-awesome>
         </span>
         <span class="text-5xl text-white">{{ $static.metadata.siteName }}</span>
+        </g-link>
       </h2>
       <div class="text-gray-400 font-thin text-xl">{{ $static.metadata.siteDescription }}</div>
     </div>
@@ -58,16 +60,15 @@
 </template>
 
 <script>
-
-import ThemeSwitcher from '~/components/ThemeSwitcher'
+import ThemeSwitcher from "~/components/ThemeSwitcher";
 
 export default {
   props: {
     theme: {
-      type: String,
-    },
+      type: String
+    }
   },
-  components : {
+  components: {
     ThemeSwitcher
   }
 };

@@ -7,10 +7,10 @@
       'opacity-0': !disableScroll && scrollPosition < headerHeight
     }">
       <div class="block flex-grow flex items-center w-auto">
-        <div class="flex items-center flex-shrink-0 text-white mr-6">
-          <font-awesome :icon="['fas', 'ghost']" class="mr-3"></font-awesome>
+        <g-link to="/" class="flex items-center flex-shrink-0 text-white mr-6">
+          <font-awesome :icon="['fas', 'cookie-bite']" class="mr-3"></font-awesome>
           <span class="font-semibold text-xl tracking-tight">{{ $static.metadata.siteName }}</span>
-        </div>
+        </g-link>
         <div class="text-sm flex-grow uppercase">
           <ul 
           class="list-none flex justify-left text-gray-300 uppercase transition-all transition-500">
@@ -67,10 +67,10 @@
  * css classes to show the sticky navbar
  */
 
-import ThemeSwitcher from '~/components/ThemeSwitcher'
+import ThemeSwitcher from "~/components/ThemeSwitcher";
 
 export default {
-  components : {
+  components: {
     ThemeSwitcher
   },
   props: {
@@ -99,7 +99,7 @@ export default {
   },
 
   mounted() {
-    if( !this.disableScroll ) {
+    if (!this.disableScroll) {
       var height = document.getElementById("header").clientHeight;
       this.setHeaderHeight(height);
       window.addEventListener("scroll", this.updateScroll);
