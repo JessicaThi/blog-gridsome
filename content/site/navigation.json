@@ -16,15 +16,11 @@
       "external": false
     }
   ],
-  "footerNavigation": [{
+  "footerNavigation": [
+    {
       "name": "Latest Posts",
       "link": "/",
-      "external" : false
-    },
-    {
-      "name": "Facebook",
-      "link": "https://www.facebook.com",
-      "external": true
+      "external": false
     },
     {
       "name": "Gridsome",

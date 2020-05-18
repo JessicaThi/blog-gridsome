@@ -15,21 +15,12 @@
             {{ $page.author.belongsTo.totalCount }} {{ postLabel }}
             &nbsp;&middot;&nbsp;
             <a
-              :href="$page.author.facebook"
+              :href="$page.author.instagram"
               target="_blank"
               rel="noopener noreferrer"
               class="text-gray-400 hover:text-black"
             >
-              <font-awesome :icon="['fab', 'facebook']" />
-            </a>
-            &nbsp;
-            <a
-              :href="$page.author.twitter"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="text-gray-400 hover:text-black"
-            >
-              <font-awesome :icon="['fab', 'twitter']" />
+              <font-awesome :icon="['fab', 'instagr m']" />
             </a>
             &nbsp;
             <a
@@ -74,8 +65,7 @@
       path
       bio
       image(width:150, height:150)
-      facebook
-      twitter
+      instagram
       linkedin
       belongsTo(perPage: 5, page: $page) @paginate {
         totalCount
