@@ -5,13 +5,22 @@
     </g-link>
     <div class="post-card-content">
       <g-link :to="record.path">
-        <p class="uppercase font-medium text-xs text-blue-700 mt-3">{{ record.category.title }}</p>
-        <h2 class="post-card-title mt-0">
+        <p class="uppercase text-xs font-medium tracking-wide text-red-500 mt-3">{{ record.category.title }}</p>
+        <h2 class="post-card-title mt-0 mb-3">
           {{ record.title }}
         </h2>
         <p class="post-card-excerpt">{{ record.excerpt }}</p>
+        <p>📍{{ record.place }}</p>
       </g-link>
-      <div class="w-full post-card-meta pt-4">
+      <div class="pt-4">
+        <g-link
+          v-for="tag in record.tags"
+          :key="tag.id"
+          :to="tag.path"
+          class="text-sm rounded-full py-2 px-3 mr-1 font-medium text-yellow-200 bg-orange-400 bg-opacity-85 hover:text-red-500 hover:border-yellow-500"
+        >#{{ tag.title }}</g-link>
+      </div>
+      <!-- <div class="w-full post-card-meta pt-4">
       <div class="avatars">
         <div class="flex items-center">
           <div class="flex justify-between items-center">
@@ -27,7 +36,7 @@
               </li>
             </ul>
           </div>
-           <div class="ml-3 pl-3 border-l flex flex-col text-xs leading-none uppercase">
+          <div class="ml-3 pl-3 border-l flex flex-col text-xs leading-none uppercase">
              <p>
                <time
           
@@ -42,7 +51,7 @@
        
       </div>
 
-    </div>
+      </div> -->
     </div>
     
     
@@ -57,7 +66,7 @@ export default {
       type: Boolean,
       default: true
     }
-  },
+  }
 };
 </script>
 

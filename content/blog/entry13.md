@@ -3,6 +3,7 @@ title: Styles
 tags: tag1, tag2
 category: Design
 excerpt: Anxius nec ibimus utque illa circa video est fuit labores alas. Vincere ferociaarva.
+place: Paris, France
 created: 2019-12-24
 image: ./images/steven-wong-LcemoNqHIxY-unsplash.jpg
 image_caption: Photo by Steven Wong on Unsplash
@@ -23,7 +24,7 @@ author: author3
 
 ## Normal Text
 
-Lorem markdownum artesque tu quidem lanigeris! Amari aliquis Ismarios,
+**texte en gras** et [le lien](http://google.com) Lorem markdownum artesque tu quidem lanigeris! Amari aliquis Ismarios,
 hospitiique nullum ab enim Pagasaea probabant armis iniuria inponi. Primus
 Aonius graves at inductas nec motu, qui pinetis. Anxius nec ibimus utque illa
 circa video est fuit labores alas. Huic per quantum undis, Themis et quamvis
@@ -59,11 +60,11 @@ gramine missisque leonibus.
 
 ## Table
 
-| Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
+| Tables   |      Are      |   Cool |
+| -------- | :-----------: | -----: |
+| col 1 is | left-aligned  | \$1600 |
+| col 2 is |   centered    |   \$12 |
+| col 3 is | right-aligned |    \$1 |
 
 ## Codeblock
 
@@ -71,22 +72,19 @@ Here a sample text which contains `<?php echo 'inline code'; ?>` and also code b
 
 ```js
 function visitor(node) {
-
   try {
     const alignment = node.align;
 
-    visit(node, 'tableRow', (rowNode) => {
-      rowNode.children.forEach(function (cellNode, index) {
-        cellNode.align = alignment[index]
+    visit(node, "tableRow", (rowNode) => {
+      rowNode.children.forEach(function(cellNode, index) {
+        cellNode.align = alignment[index];
       });
     });
 
     node.align = node.align.map(function(value) {
       return null;
     });
-    
-  } catch (e) {
-  }
+  } catch (e) {}
 }
 ```
 

@@ -3,6 +3,7 @@ title: Dederis faciem
 tags: tag1, tag2, tag3
 category: Getting started
 excerpt: Qua opes egentes cur, et trunca carpserat tulitquemuneris foedumque patriumque pisces vices!
+place: Paris, France
 created: 2019-02-05
 image: ./images/lukasz-szmigiel-jFCViYFYcus-unsplash.jpg
 image_caption: Photo by Luasz Szmigiel on Unsplash
@@ -11,7 +12,7 @@ author: author1
 
 ## Loci ego fuit
 
-Lorem markdownum tollere. *Qua opes egentes* cur, et trunca carpserat
+Lorem markdownum tollere. _Qua opes egentes_ cur, et trunca carpserat
 tulitquemuneris foedumque patriumque pisces vices sed eadem quam! **Cupidinis
 nostro Issen**; pinus cumulo tanget ego **aera dea** fugientem fortia publica
 cum, ipsum.
@@ -31,7 +32,7 @@ Quem blandis erat mutantur ferox, conveniunt procorum Aeacides nepotum dicere
 
 > Hanc nisi accipit passim dictos proceres, mare quaque, capacibus in munera
 > natalibus libido. Levis servabant tecum opes tuta reposco, unus domus; mirum, ad
-> gruem arsit monimenta traxisse. 
+> gruem arsit monimenta traxisse.
 
 Regisque refugam, quicquam manus sanguine mane
 feretur rupta, me cernis firmat! Cingebant postquam offensasque manes totaque

@@ -1,5 +1,5 @@
 <template>
-  <div id="app" dark>
+  <div id="app" dark class="antialiased">
     <HeaderPartial v-if="hideHeader!=true" @setTheme="setTheme" :theme="this.theme"></HeaderPartial>
     <slot/>
     <NavbarPartial :disableScroll="disableScroll" @setTheme="setTheme" :theme="this.theme"></NavbarPartial>
@@ -16,9 +16,9 @@ query {
 </static-query>
 
 <script>
-import HeaderPartial from '~/layouts/partials/HeaderWithNavbar.vue'
-import NavbarPartial from '~/layouts/partials/Navbar.vue'
-import FooterPartial from '~/layouts/partials/Footer.vue'
+import HeaderPartial from "~/layouts/partials/HeaderWithNavbar.vue";
+import NavbarPartial from "~/layouts/partials/Navbar.vue";
+import FooterPartial from "~/layouts/partials/Footer.vue";
 
 export default {
   props: {
@@ -33,12 +33,12 @@ export default {
   },
   data: function() {
     return {
-      theme: 'light'
+      theme: "light"
     };
   },
   methods: {
     setTheme(mode) {
-        this.theme = mode
+      this.theme = mode;
     }
   },
   components: {
@@ -46,11 +46,11 @@ export default {
     NavbarPartial,
     FooterPartial
   },
-  
+
   metaInfo: {
     bodyAttrs: {
       class: "m-0"
     }
   }
-}
+};
 </script>

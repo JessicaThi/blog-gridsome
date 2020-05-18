@@ -3,6 +3,7 @@ title: Et aequora inanes fortuna non dextra
 tags: tag2, tag3
 category: Digital
 excerpt: Lorem markdownum Hesperus in publica iusta aeternus num removit ille. Vincere ferociaarva.
+place: Paris, France
 created: 2019-03-20
 image: ./images/marco-marques-dJ_Zl5LpPto-unsplash.jpg
 image_caption: Photo by Marco Marques on Unsplash
@@ -12,9 +13,9 @@ author: author1
 ## Concretam matris protinus populos
 
 Lorem markdownum Hesperus in publica iusta aeternus num removit ille. Ea cur
-utar cum *tenuit Philemon*, etiamnum nomen; tibi horrida potuit. Sopita sine
-**ego repetita**, lunae seraque ignoscas nullus cornua illi in. *Praemia caelum
-fictilibus* Iasone valens tura breve!
+utar cum _tenuit Philemon_, etiamnum nomen; tibi horrida potuit. Sopita sine
+**ego repetita**, lunae seraque ignoscas nullus cornua illi in. _Praemia caelum
+fictilibus_ Iasone valens tura breve!
 
 ```
 if (dvr_web) {
@@ -51,7 +52,7 @@ on = exif_baud - c(paperActivexLpi, modemCisc(spoolWeb, nocEHoneypot,
 
 Pugnae ore **solacia** ignis nulla omina; iam et memori ubi quaedam index litora
 fertur est, est. Arma adfore Iuppiter, munere intraverat Austri est. Rustice
-oraque undis vultus at *serpere venerat luridus* facit luctantiaque furoris.
+oraque undis vultus at _serpere venerat luridus_ facit luctantiaque furoris.
 Pollutosque acer herbarum videre.
 
 ## Claros in oscula fratribus ab expellitur det
@@ -79,11 +80,11 @@ if (snippet) {
 ```
 
 Est dedit ut nexuque ope fluet **medio lato** rituque vacuus lapides vitarit,
-iam urbi; Parcite *premebat pendere*. Et unda haerentes nunc laceras: mugit quam
+iam urbi; Parcite _premebat pendere_. Et unda haerentes nunc laceras: mugit quam
 **deum nasci** Phobetora necis ursos nec conscendere quoque dixerat sucos
-pharetramque verum. Et *inque vetuere atque*. Iam flexit nondum silicem equidem
+pharetramque verum. Et _inque vetuere atque_. Iam flexit nondum silicem equidem
 thyrso ipsum admovitque medium tetigere. Volucres ope semina aether est Phoebo
-per **donec** submersum ossa tangi i *libera aut noctis*, nunc silendo.
+per **donec** submersum ossa tangi i _libera aut noctis_, nunc silendo.
 
 Et cum aequantur Thaumantidos clipeo formas maiora. Est hunc altoque **apicemque
 molarem repleam** Emathion contenta videt, modo iunctura deduxit [cum

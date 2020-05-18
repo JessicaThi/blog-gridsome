@@ -22,6 +22,7 @@ query($page:Int) {
       node {
         title
         excerpt
+        place
         image(width:800)
         path
         timeToRead
@@ -30,6 +31,11 @@ query($page:Int) {
         category {
           id
           title
+        }
+        tags {
+          id
+          title
+          path
         }
         author {
           id
@@ -45,8 +51,7 @@ query($page:Int) {
 </page-query>
 
 <script>
-
-import PostListItem from '~/components/PostListItem.vue';
+import PostListItem from "~/components/PostListItem.vue";
 
 export default {
   metaInfo: {
