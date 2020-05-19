@@ -12,7 +12,7 @@
           <h1 class="pb-0 mb-0 mt-0 text-4xl font-medium">{{ $page.author.name }}</h1>
           <p class="text-gray-700 text-xl" v-if="$page.author.bio">{{ $page.author.bio }}</p>
           <div class="author-social">
-            {{ $page.author.belongsTo.totalCount }} {{ postLabel }}
+            Publication de {{ $page.author.belongsTo.totalCount }} {{ postLabel }}
             &nbsp;&middot;&nbsp;
             <a
               :href="$page.author.instagram"
@@ -123,7 +123,7 @@ export default {
   computed: {
     postLabel: function() {
       var pluralize = require("pluralize");
-      return pluralize("post", this.$page.author.belongsTo.totalCount);
+      return pluralize("article", this.$page.author.belongsTo.totalCount);
     }
   },
   metaInfo() {

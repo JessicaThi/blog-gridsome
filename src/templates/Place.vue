@@ -4,7 +4,7 @@
       <div class="mx-4 sm:mx-0">
         <h1 class="pb-0 mb-0 text-5xl font-medium">{{ $page.place.title }}</h1>
         <p class="text-gray-700 text-xl">
-          A collection of
+          Publication de
           <span
             class="self-center"
           >{{ $page.place.belongsTo.totalCount }} {{ postLabel }}</span>
@@ -89,12 +89,12 @@ export default {
   computed: {
     postLabel: function() {
       var pluralize = require("pluralize");
-      return pluralize("post", this.$page.place.belongsTo.totalCount);
+      return pluralize("article", this.$page.place.belongsTo.totalCount);
     }
   },
   metaInfo() {
     return {
-      title: this.$page.place.name
+      title: this.$page.place.title
     };
   }
 };

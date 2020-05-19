@@ -5,7 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: "Lumy_foody blog",
+  siteName: "Lumy_foody",
   siteDescription:
     "Mes endroits enregistrés pour régaler vos envies gourmandes",
   siteUrl: "http://localhost:8080",
