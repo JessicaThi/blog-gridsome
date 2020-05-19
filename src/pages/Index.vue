@@ -22,7 +22,6 @@ query($page:Int) {
       node {
         title
         excerpt
-        place
         image(width:800)
         path
         timeToRead
@@ -41,6 +40,11 @@ query($page:Int) {
           id
           name
           image(width:64, height:64, fit:inside)
+          path
+        }
+        place {
+          id
+          title
           path
         }
       }

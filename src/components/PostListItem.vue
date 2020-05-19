@@ -10,7 +10,9 @@
           {{ record.title }}
         </h2>
         <p class="post-card-excerpt">{{ record.excerpt }}</p>
-        <p>📍{{ record.place }}</p>
+      </g-link>
+      <g-link :to="record.place.path">
+        <p class="text-sm">📍{{ record.place.title }}</p>
       </g-link>
       <div class="pt-4">
         <g-link

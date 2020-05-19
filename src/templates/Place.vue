@@ -1,13 +1,13 @@
 <template>
-  <Layout :hideHeader="true" :disableScroll="true">
+    <Layout :hideHeader="true" :disableScroll="true">
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden pt-24">
       <div class="mx-4 sm:mx-0">
-        <h1 class="pb-0 mb-0 text-5xl font-medium">{{ $page.tag.title }}</h1>
+        <h1 class="pb-0 mb-0 text-5xl font-medium">{{ $page.place.title }}</h1>
         <p class="text-gray-700 text-xl">
           A collection of
           <span
             class="self-center"
-          >{{ $page.tag.belongsTo.totalCount }} {{ postLabel }}</span>
+          >{{ $page.place.belongsTo.totalCount }} {{ postLabel }}</span>
         </p>
       </div>
 
@@ -15,7 +15,7 @@
 
       <div class="flex flex-wrap pt-8 pb-8 mx-4 sm:-mx-4">
         <PostListItem
-          v-for="edge in $page.tag.belongsTo.edges"
+          v-for="edge in $page.place.belongsTo.edges"
           :key="edge.node.id"
           :record="edge.node"
         />
@@ -23,11 +23,11 @@
 
       <div class="pagination flex justify-center mb-8">
         <Pagination
-          :baseUrl="$page.tag.path"
-          :currentPage="$page.tag.belongsTo.pageInfo.currentPage"
-          :totalPages="$page.tag.belongsTo.pageInfo.totalPages"
+          :baseUrl="$page.place.path"
+          :currentPage="$page.place.belongsTo.pageInfo.currentPage"
+          :totalPages="$page.place.belongsTo.pageInfo.totalPages"
           :maxVisibleButtons="5"
-          v-if="$page.tag.belongsTo.pageInfo.totalPages > 1"
+          v-if="$page.place.belongsTo.pageInfo.totalPages > 1"
         />
       </div>
     </div>
@@ -36,7 +36,7 @@
 
 <page-query>
   query($id: ID!, $page:Int) {
-    tag(id: $id) {
+    place(id: $id) {
       title
       path
       belongsTo(perPage: 5, page: $page) @paginate {
@@ -89,12 +89,12 @@ export default {
   computed: {
     postLabel: function() {
       var pluralize = require("pluralize");
-      return pluralize("post", this.$page.tag.belongsTo.totalCount);
+      return pluralize("post", this.$page.place.belongsTo.totalCount);
     }
   },
   metaInfo() {
     return {
-      title: this.$page.tag.title
+      title: this.$page.place.name
     };
   }
 };

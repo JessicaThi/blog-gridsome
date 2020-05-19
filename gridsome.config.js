@@ -67,6 +67,10 @@ module.exports = {
             typeName: "Category",
             create: true,
           },
+          place: {
+            typeName: "Place",
+            create: true,
+          },
         },
       },
     },
@@ -108,6 +112,12 @@ module.exports = {
       {
         path: "/tags/:title",
         component: "~/templates/Tag.vue",
+      },
+    ],
+    Place: [
+      {
+        path: "/place/:title",
+        component: "~/templates/Place.vue",
       },
     ],
   },

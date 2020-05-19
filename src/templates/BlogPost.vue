@@ -3,14 +3,14 @@
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden pt-24">
       <div class="lg:mx-32 md:mx-16 sm:mx-8 mx-4 pt-8">
         <section class="post-header container mx-auto px-0 mb-4 border-b">
-          <span class="text-blue-500 font-medium uppercase tracking-wide text-sm">
+          <span class="uppercase text-sm font-medium tracking-wide text-red-500 mt-3">
             <g-link
               :to="$page.blog.category.path"
               class="hover:underline"
             >{{ $page.blog.category.title }}</g-link>
           </span>
-          <h1 class="text-5xl font-medium leading-none mt-0">{{ $page.blog.title}}</h1>
-          <div class="text-2xl pt-4 pb-10 text-gray-700 font-serif" v-html="$page.blog.excerpt"></div>
+          <h1 class="text-5xl font-medium leading-none mt-1">{{ $page.blog.title}}</h1>
+          <div class="text-2xl pt-1 pb-4 text-gray-700" v-html="$page.blog.excerpt"></div>
         </section>
         <section class="post-author-list mb-10 mx-0">
           <div class="flex items-center">
@@ -28,20 +28,11 @@
               </ul>
             </div>
             <div class="pl-3 flex flex-col text-xs leading-none uppercase">
-              <p>
-                <span v-for="(author, index) in $page.blog.author" :key="author.id">
-                  <g-link
-                    :to="author.path"
-                    v-tooltip="author.name"
-                    class="hover:underline"
-                  >{{ author.name }}</g-link>
-                  <span v-if="index < $page.blog.author.length-1">,</span>
-                </span>
-              </p>
               <p class="text-gray-700">
                 <time :datetime="$page.blog.datetime">{{ $page.blog.humanTime }}</time>
                 &nbsp;&middot;&nbsp; {{ $page.blog.timeToRead }} min read
               </p>
+              <p class="text-gray-700 pt-1">📍{{ $page.blog.place.title }}</p>
             </div>
           </div>
         </section>
@@ -51,7 +42,7 @@
       </section>
 
       <div class="lg:mx-32 md:mx-16 px-4 sm:px-0">
-        <section class="post-content container mx-auto relative font-serif text-gray-700">
+        <section class="post-content container mx-auto relative text-gray-700">
           <div class="post-content-text text-xl" v-html="$page.blog.content"></div>
         </section>
 
@@ -60,8 +51,8 @@
             v-for="tag in $page.blog.tags"
             :key="tag.id"
             :to="tag.path"
-            class="text-xs bg-transparent hover:text-blue-700 py-2 px-4 mr-2 border hover:border-blue-500 border-gray-600 text-gray-700 rounded-full"
-          >{{ tag.title }}</g-link>
+            class="text-sm rounded-full py-2 px-3 mr-1 font-medium text-yellow-200 bg-orange-400 bg-opacity-85 hover:text-red-500 hover:border-yellow-500"
+          >#{{ tag.title }}</g-link>
         </section>
       </div>
     </div>
@@ -121,6 +112,11 @@
         title
         path
       }
+      place {
+        id
+        title
+        path
+      }
     }
 
     previous: blog(id: $previousElement) {
@@ -137,6 +133,16 @@
         id
         name
         image(width:64, height:64, fit:inside)
+        path
+      }
+      tags {
+        id
+        title
+        path
+      }
+      place {
+        id
+        title
         path
       }
     }
@@ -157,10 +163,17 @@
         image(width:64, height:64, fit:inside)
         path
       }
+      tags {
+        id
+        title
+        path
+      }
+      place {
+        id
+        title
+        path
+      }
     }
-
-
-    
   }
 </page-query>
 
@@ -176,6 +189,5 @@ export default {
       title: this.$page.blog.title
     };
   }
-  
 };
 </script>

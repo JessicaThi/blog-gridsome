@@ -87,6 +87,16 @@
                 id
                 title
               }
+              tags {
+                id
+                title
+                path
+              }
+              place {
+                id
+                title
+                path
+              }
               author {
                 id
                 name
