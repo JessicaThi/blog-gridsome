@@ -1,7 +1,7 @@
 <template>
   <Layout :hideHeader="true" :disableScroll="true">
-    <div class="container sm:pxi-0 mx-auto overflow-x-hidden pt-24">
-      <div class="flex flex-row flex-wrap items-center mx-4 sm:mx-0">
+    <div class="container min-height-custom lg:pxi-0 mx-auto overflow-x-hidden pt-20 md:pt-24">
+      <div class="flex flex-row flex-wrap items-center mx-4 sm:px-4">
         <div class="w-full md:w-1/6 mx-auto sm:mx-0">
           <g-image
             :src="$page.author.image"
@@ -35,9 +35,9 @@
         </div>
       </div>
 
-      <div class="pt-8 border-b mx-4 sm:-mx-4"></div>
+      <div class="pt-8 border-b"></div>
 
-      <div class="flex flex-wrap pt-8 pb-8 mx-4 sm:-mx-4">
+      <div class="flex flex-wrap pt-8 pb-8 mx-4">
         <PostListItem
           v-for="edge in $page.author.belongsTo.edges"
           :key="edge.node.id"
@@ -45,13 +45,12 @@
         />
       </div>
 
-      <div class="pagination flex justify-center mb-8">
+      <div v-if="$page.author.belongsTo.pageInfo.totalPages > 1" class="pagination flex justify-center mb-8" >
         <Pagination
           :baseUrl="$page.author.path"
           :currentPage="$page.author.belongsTo.pageInfo.currentPage"
           :totalPages="$page.author.belongsTo.pageInfo.totalPages"
           :maxVisibleButtons="5"
-          v-if="$page.author.belongsTo.pageInfo.totalPages > 1"
         />
       </div>
     </div>

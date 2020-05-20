@@ -1,7 +1,7 @@
 <template>
     <Layout :hideHeader="true" :disableScroll="true">
-    <div class="container sm:pxi-0 mx-auto overflow-x-hidden pt-24">
-      <div class="mx-4 sm:mx-0">
+    <div class="container min-height-custom lg:0 mx-auto overflow-x-hidden pt-20 md:pt-24">
+      <div class="mx-4 sm:px-4">
         <h1 class="pb-0 mb-0 text-5xl font-medium">{{ $page.place.title }}</h1>
         <p class="text-gray-700 text-xl">
           Publication de
@@ -13,7 +13,7 @@
 
       <div class="pt-8 border-b"></div>
 
-      <div class="flex flex-wrap pt-8 pb-8 mx-4 sm:-mx-4">
+      <div class="flex flex-wrap pt-8 mx-4 pb-0 sm:pb-8">
         <PostListItem
           v-for="edge in $page.place.belongsTo.edges"
           :key="edge.node.id"
@@ -21,13 +21,12 @@
         />
       </div>
 
-      <div class="pagination flex justify-center mb-8">
+      <div v-if="$page.place.belongsTo.pageInfo.totalPages > 1" class="pagination flex justify-center mb-8" >
         <Pagination
           :baseUrl="$page.place.path"
           :currentPage="$page.place.belongsTo.pageInfo.currentPage"
           :totalPages="$page.place.belongsTo.pageInfo.totalPages"
           :maxVisibleButtons="5"
-          v-if="$page.place.belongsTo.pageInfo.totalPages > 1"
         />
       </div>
     </div>

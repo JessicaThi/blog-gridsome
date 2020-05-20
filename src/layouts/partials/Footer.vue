@@ -1,12 +1,12 @@
 <template>
-  <nav class="relative bg-black pt-4 pb-16 text-sm text-gray-500">
-    <div class="container mx-auto flex flex-wrap justify-between h-12 items-center">
+  <nav class="relative bg-black py-4 text-sm text-gray-500">
+    <div class="container mx-auto flex flex-wrap justify-between h-12 px-4 items-center">
       <div class="w-full md:w-1/2 text-center md:text-left">
       Copyright {{ currentYear }} by {{ $static.metadata.siteName }} 
       | Design by <a href="https://ghost.org" target="_blank" class="hover:text-white">Ghost</a>
       </div>
       <div class="w-full md:w-1/2">
-      <ul class="list-none flex justify-center md:justify-end">
+      <ul class="list-none flex justify-center ml-0 md:justify-end">
 
         <li 
           :key="element.name" 

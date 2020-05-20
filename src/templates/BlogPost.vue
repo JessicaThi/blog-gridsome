@@ -1,6 +1,6 @@
 <template>
   <Layout :hideHeader="true" :disableScroll="true">
-    <div class="container sm:pxi-0 mx-auto overflow-x-hidden pt-24">
+    <div class="container lg:pxi-0 mx-auto overflow-x-hidden pt-20 md:pt-24">
       <div class="lg:mx-32 md:mx-16 sm:mx-8 mx-4 pt-8">
         <section class="post-header container mx-auto px-0 mb-4 border-b">
           <span class="uppercase text-sm font-medium tracking-wide text-red-500 mt-3">
@@ -57,9 +57,9 @@
       </div>
     </div>
 
-    <section class="post-related bg-black text-gray-200 pt-10 border-b border-b-gray-900">
+    <section class="post-related bg-black text-gray-200 pt-10 px-4 border-b border-b-gray-900">
       <div class="container mx-auto">
-        <div class="flex flex-wrap pt-8 pb-8 mx-4 sm:-mx-4">
+        <div class="flex flex-wrap pt-8">
           <PostListItem v-if="$page.previous" :record="$page.previous" :border=false></PostListItem>
           <PostListItem v-if="$page.next" :record="$page.next" :border=false></PostListItem>
         </div>

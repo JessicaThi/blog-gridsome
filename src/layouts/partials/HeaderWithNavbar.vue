@@ -1,9 +1,9 @@
 <template>
   <header class="bg-black relative z-1000 bg-radial-t-gray-to-black" id="header">
-    <nav class="flex items-center justify-between flex-wrap container mx-auto px-4 sm:px-0 py-4">
+    <nav class="flex items-center justify-between flex-wrap container mx-auto px-4 py-4">
       <div class="block flex-grow flex items-center w-auto height-30px">
         <div class="text-sm flex-grow uppercase">
-          <ul class="list-none flex justify-left text-gray-300 uppercase">
+          <ul class="list-none flex justify-left ml-0 text-gray-300 uppercase">
             <li
               :key="element.name"
               v-for="(element,index) in $static.metadata.navigation"
@@ -24,7 +24,7 @@
         
         <div class="inline-block text-gray-400">
           <ul class="list-none flex justify-center md:justify-end">
-            <li class="mr-0 sm:mr-6">
+            <li class="mr-0 sm:mr-4">
               <theme-switcher v-on="$listeners" :theme="theme"/>
             </li>
             <li
