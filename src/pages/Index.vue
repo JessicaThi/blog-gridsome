@@ -4,14 +4,14 @@
       <div class="flex flex-wrap with-large pt-16 pb-8 mx-4 sm:-mx-4">
         <PostListItem v-for="edge in $page.entries.edges" :key="edge.node.id" :record="edge.node" />
       </div>
-      <!-- <div v-if="$page.entries.pageInfo.totalPages > 1" class="pagination flex justify-center mb-8" >
+      <div v-if="$page.entries.pageInfo.totalPages > 1" class="pagination flex justify-center mb-8" >
         <Pagination
-          :baseUrl="$page.entries.pageInfo.hasNextPage"
+          baseUrl=""
           :currentPage="$page.entries.pageInfo.currentPage"
           :totalPages="$page.entries.pageInfo.totalPages"
           :maxVisibleButtons="5"
         />
-      </div> -->
+      </div>
     </div>
   </Layout>
 </template>
@@ -20,7 +20,7 @@
 
 query($page:Int) {
 
-  entries: allBlog(perPage: 9, page: $page, order: ASC) @paginate {
+  entries: allBlog(perPage: 9, page: $page, sort: { by: "date", order: ASC }) @paginate {
     totalCount
     pageInfo {
       totalPages
