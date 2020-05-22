@@ -4,6 +4,7 @@ tags: tag3, tag4, tag5
 category: Business
 excerpt: Canache virago, metuendus illo est sibi inlaesos, ubi prior loca coniuge, illi pro. Vincere ferociaarva.
 place: Paris, France
+adresse: Paris
 created: 2019-10-31
 image: ./images/sergio-souza-WU6K3Lmq9ok-unsplash.jpg
 image_caption: Photo by Sergio Souza on Unsplash

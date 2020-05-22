@@ -4,6 +4,7 @@ tags: tag6, tag7, tag8
 category: Getting started
 excerpt: Lorem markdownum insurgere noverat, cum est frangitur pestis nefas, iaculis ut moliri! Pallas omnis.
 place: Paris, France
+adresse: Paris
 created: 2019-08-02
 image: ./images/sadanand-lowanshi-6AnDyJ10_iQ-unsplash.jpg
 image_caption: Photo by Sadanand Lowanshi on Unsplash

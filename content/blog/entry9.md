@@ -4,6 +4,7 @@ tags: tag1, tag2, tag3
 category: Health
 excerpt: Saepe Horamque Typhoea in denique, vivere semina manu quodque hic quia et iam natis. Vincere ferociaarva.
 place: Paris, France
+adresse: Paris
 created: 2019-09-03
 image: ./images/sergio-souza-mvb51ThjvRA-unsplash.jpg
 image_caption: Photo by Sergio Souza on Unsplash
