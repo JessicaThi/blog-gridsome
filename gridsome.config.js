@@ -71,6 +71,10 @@ module.exports = {
             typeName: "Place",
             create: true,
           },
+          adresse: {
+            typeName: "Adresse",
+            create: true,
+          },
         },
       },
     },
@@ -115,6 +119,12 @@ module.exports = {
       },
     ],
     Place: [
+      {
+        path: "/place/:title",
+        component: "~/templates/Place.vue",
+      },
+    ],
+    Adresse: [
       {
         path: "/place/:title",
         component: "~/templates/Place.vue",

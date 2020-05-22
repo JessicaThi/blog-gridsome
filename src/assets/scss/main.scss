@@ -125,6 +125,12 @@ ul {
   @apply -ml-3;
 }
 
+.post-content {
+  a {
+    @apply text-orange-500;
+  }
+}
+
 // @media (min-width: 768px) {
 //   .with-large > .flex-post:nth-child(6n + 1) {
 //     @apply flex-100;

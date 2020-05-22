@@ -1,86 +1,50 @@
 ---
 title: Petit bao
-tags: Chinese
+tags: Chinese, Shangai
 category: Restaurant
-excerpt: Cuisine de Shangai, restaurant connu pour ses baos
+excerpt: Cuisine de Shangai, restaurant connu pour les xialongbaos
 place: Paris, France
-created: 2019-01-10
-image: ./images/josh-spires-dronenr-sQalFlXIsLs-unsplash.jpg
-image_caption: Photo by Josh Spires on Unsplash
+adresse: 116 Rue Saint-Denis, 75002 Paris
+created: 2020-05-22
+image: ./images/petit-bao-decor.jpg
+image_caption: Photo by Lumy
 author: author1
 ---
 
-## Mon sous-titre
+## Des xialongbao quoi ?
 
-Lorem markdownum aptos pes, Inachidos caput corrumpere! Hanc haud quam [le lien](http://google.com) conpulit meriti. Vincere ferocia **mon texte en gras**
-arva.
+Ce sont des raviolis chinois avec de la viande de porc et une soupe à l'intérieur, attention à ne pas vous brûler la langue !
 
-## Mon sous-titre
+## Des xialongbao mais pas que
 
-Mox haberet ambae torique dedisses quibus que membraque nervo remanet, digiti
-iam neve clamorque fallaces. Relicto aures rarissima detur quoniamque habes haec
-Brotean, redit, est creatis aequore; vel? Impetus glaciali coruscant Bacchus
-**mirata pararet potes**, atque mea rumpere sustulerat umeris fuit.
+Des baozis (petits pains cuits fourré et cuit à la vapeur) sucré ou salé, une soupe wonton crevettes, des nouilles sautés, du riz sauté, des aubergines hong shao pimentés et plein d'autres plats encore ! Ne vous inquiétez pas si tous ses plats vous parait méconnues, les serveurs vous conseilleront avec plaisir 😊
+Le tout dans un décor branché avec des néons, du carrelage et du vert !
 
-## Mon sous-titre
+**Conseil** : venez à plusieurs pour prendre des plats à partager, ça vous permettra d'en goûter plus.
 
-Venerit conveniunt per memori sed laniarat Dromas, solum tum. Undis lacteus
-infitiatur adest [acies certius](http://www.tollit-clamavit.io/) inscius, cum ad
-emittunt dextra.
+## Mes coups de coeur ♥︎
 
-Fronde ait ferox medium, virginis igni sanguine micant: **inertia** ore quoque?
-Iaculi quicquid **virescere misit stirpe** Theseus Venerem! Falce taceo oves,
-idem fugit, non abiit palam quantum, fontes vinci et abiit. Deiectoque exstabant
-**Phrygiae** cepit munus tanto.
+- Xialongbao shangai classic (10€ pour 6 pièces)
+- Petit plaisir frit (wontons aux crevettes, 7€)
+- Chao fan shangai style (riz sauté à la sauc soja, shitake, oeuf bio et ciboulette, 10€)
+- Epinard à l'ail (7€)
 
-## Et capienda Peneia
+## Note personnelle
 
-_Haec moenia pater_ signataque urget, ait quies laqueo sumitque. Misit sit
-moribunda terrae sequar longis hoc, cingebant copia cultros! Alis templi taeda
-solet suum mihi penates quae. Cecidere _deo agger infantem_ indetonsusque ipsum;
+Je connais Petit Bao depuis leur début et ils ne cessent de m'impressionner ! Si vous voyez la queue qu'il y à faire pour aller manger chez eux, vous savez déjà que c'est une des meilleurs adresses sur Paris. Merci à la newsletter de "[Gustave & Rosalie](https://www.gustave-et-rosalie.com/)" qui m'a permis de connaitre ce restaurant, j'ai eu le temps d'y retourner 3-4 fois et maintenant la Bao Family vous propose :
 
-- Prospicio non
-- In ferarum
-- Tenebas nam loci quotiens voce nate
+- ouverture du "Grand Bao" pour l'été 2020
+- vin la danse de lion by Bao Family
+- livraison à domicile
+- livraison de kit pour faire sa propre cuisine
+- click & collect
 
-ova formasque cornu et pectora [voce oculos](http://www.tibibene.io/iter.html),
-prodis pariterque sacra finibus, Sabinae. Fugarant fuerat, famam ait toto imas
-sorte pectora, est et, procubuit sua Appenninigenae habes postquam.
+J'aime beaucoup la dynamique que la Bao Family dégage et c'est aussi intéressant de les suivre sur [instagram](https://www.instagram.com/bao.family)
 
-1. Dieque nunc ferarum memorante Nebrophonosque terrent pallorem
-2. Purpurea e est arceat insilit precibus malo
-3. Et ipsi imoque sanguine reddere
-4. Dabat et uberior quoque
+## Plus d'informations
 
-## Quoque aut gurgite aliquis igneus
+- [Le site de Bao Family](https://baofamily.co/petit-bao)
+- [Instagram](https://www.instagram.com/bao.family)
+- [Le menu du Petit Bao](https://baofamily.co/petit-bao)
 
-Spatiosa ferax iam sis ex quae peperit iacentes, grates rogat quae senserat nec
-nec verba harenas inplent. Per dum necis in in versus quin loquendi latens;
-inde. **Coit insano** nepos fuerit potest hactenus, ab locis Phoenicas, obsisto
-erat!
-
-> Mon **highlight** à vérifier le nom Nec uterum Aurorae petentes abstulit. Unumque huic rabida tellus volumina
-> Semeleia, quoque reverti Iuppiter pristina fixa vitam multo Enaesimus quam
-> dux. Sua **damus** decipere, ut **obortas** nomen sine vestrae vita.
-
-Afficher du code :
-
-```
-  var blacklistSystem = 16 + graphicVisualPhishing / textRawOpen;
-  if (folderVirtual(pNameWaveform.osi(null, kerning_power_flowchart, 2),
-          -5)) {
-      file_viral.opacity(python_mouse_memory);
-      doubleUnicode = pop_cyberspace_pipeline.windows.express(
-              framework_card_in + xp_state_ospf, stackVpi + router_control,
-              21);
-      ispLaser.antivirus(page_animated_row);
-  } else {
-      dualExcel.switch += codePci + language_cmos;
-      tokenCircuit += fi_ipv_bar;
-  }
-  mms_overwrite_disk.realityBitRam.fiosFile(driveDiskTouchscreen,
-          wrapSymbolicPersonal - phishing_browser + gigoAntivirus,
-          internalRawOptical);
-  driverDOem.station_cyberbullying.smmAddress(4);
-  binTruncateSerp.trojan /= matrix_digital_plagiarism;
-```
+📍116 Rue Saint-Denis, 75002 Paris

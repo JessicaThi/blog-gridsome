@@ -32,7 +32,9 @@
                 <time :datetime="$page.blog.datetime">{{ $page.blog.humanTime }}</time>
                 &nbsp;&middot;&nbsp; {{ $page.blog.timeToRead }} min read
               </p>
-              <p class="text-gray-700 pt-1">📍{{ $page.blog.place.title }}</p>
+              <g-link :to="$page.blog.place.path">
+                <p class="text-gray-700 pt-1">📍{{ $page.blog.adresse.title }}</p>
+              </g-link>
             </div>
           </div>
         </section>
@@ -116,6 +118,10 @@
         id
         title
         path
+      }
+      adresse {
+        id
+        title
       }
     }
 
