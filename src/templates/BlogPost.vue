@@ -33,7 +33,7 @@
                 &nbsp;&middot;&nbsp; {{ $page.blog.timeToRead }} min read
               </p>
               <g-link :to="$page.blog.place.path">
-                <p class="text-gray-700 pt-1">📍{{ $page.blog.adresse.title }}</p>
+                <p class="text-gray-700 pt-1">📍{{ $page.blog.address.title }}</p>
               </g-link>
             </div>
           </div>
@@ -119,7 +119,7 @@
         title
         path
       }
-      adresse {
+      address {
         id
         title
       }
