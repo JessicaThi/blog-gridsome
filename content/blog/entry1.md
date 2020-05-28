@@ -7,7 +7,7 @@ place: Paris, France
 adresse: 116 Rue Saint-Denis, 75002 Paris
 created: 2020-05-22
 image: ./images/petit-bao-decor.jpg
-image_caption: Photo by Lumy
+image_caption: Photo de Lumy
 author: author1
 ---
 
@@ -48,3 +48,9 @@ J'aime beaucoup la dynamique que la Bao Family dégage et c'est aussi intéressa
 - [Le menu du Petit Bao](https://baofamily.co/petit-bao)
 
 📍116 Rue Saint-Denis, 75002 Paris
+
+### Accès en transports
+
+🚉 Etienne Marcel (ligne 4)
+
+🚉 Arts et métiers (ligne 3 et 11)
