@@ -4,7 +4,7 @@ tags: tag5, tag6, tag7
 category: Digital
 excerpt: Est ille semper crimen inanes uterque sternitur Syrtis, est. Vincere ferociaarva.
 place: Paris, France
-adresse: Paris
+address: Paris
 created: 2019-11-11
 image: ./images/stephan-cassara-KnAIsBuitGg-unsplash.jpg
 image_caption: Photo by Stephan Cassara on Unsplash

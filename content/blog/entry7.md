@@ -4,7 +4,7 @@ tags: tag6, tag7, tag8
 category: Digital
 excerpt: Lorem markdownum ipso iam capillis aether ceperat castra ille pectus. Vincere ferociaarva.
 place: Paris, France
-adresse: Paris
+address: Paris
 created: 2019-07-29
 image: ./images/riccardo-chiarini-2VDa8bnLM8c-unsplash.jpg
 image_caption: Photo by Riccardo Chiarini on Unsplash

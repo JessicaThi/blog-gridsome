@@ -1,10 +1,10 @@
 ---
 title: Petit bao
-tags: Chinese, Shangai
+tags: Chinois, Shangai
 category: Restaurant
 excerpt: Cuisine de Shangai, restaurant connu pour les xialongbaos
 place: Paris, France
-adresse: 116 Rue Saint-Denis, 75002 Paris
+address: 116 Rue Saint-Denis, 75002 Paris
 created: 2020-05-22
 image: ./images/petit-bao-decor.jpg
 image_caption: Photo de Lumy

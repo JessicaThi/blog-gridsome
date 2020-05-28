@@ -1,10 +1,10 @@
 ---
 title: Bistrot Mee
-tags: Korean
+tags: Coréen
 category: Restaurant
 excerpt: Le bistrot coréen reconnu par le guide Michelin
 place: Paris, France
-adresse: 5 rue d'Argenteuil, 75001 Paris
+address: 5 rue d'Argenteuil, 75001 Paris
 created: 2020-05-28
 image: ./images/bistrot-mee.jpg
 image_caption: Photo de Bistrot Mee

@@ -4,7 +4,7 @@ tags: tag2, tag3
 category: Digital
 excerpt: Lorem markdownum Hesperus in publica iusta aeternus num removit ille. Vincere ferociaarva.
 place: Paris, France
-adresse: Paris
+address: Paris
 created: 2019-03-20
 image: ./images/marco-marques-dJ_Zl5LpPto-unsplash.jpg
 image_caption: Photo by Marco Marques on Unsplash
