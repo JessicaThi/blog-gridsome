@@ -1,78 +1,69 @@
 ---
-title: Dederis faciem
-tags: tag1, tag2, tag3
-category: Getting started
-excerpt: Qua opes egentes cur, et trunca carpserat tulitquemuneris foedumque patriumque pisces vices!
+title: Bistrot Mee
+tags: Korean
+category: Restaurant
+excerpt: Le bistrot coréen reconnu par le guide Michelin
 place: Paris, France
-adresse: Paris
-created: 2019-02-05
-image: ./images/lukasz-szmigiel-jFCViYFYcus-unsplash.jpg
-image_caption: Photo by Luasz Szmigiel on Unsplash
+adresse: 5 rue d'Argenteuil, 75001 Paris
+created: 2020-05-28
+image: ./images/bistrot-mee.jpg
+image_caption: Photo de Bistrot Mee
 author: author1
 ---
 
-## Loci ego fuit
+## En plein centre de Paris
 
-Lorem markdownum tollere. _Qua opes egentes_ cur, et trunca carpserat
-tulitquemuneris foedumque patriumque pisces vices sed eadem quam! **Cupidinis
-nostro Issen**; pinus cumulo tanget ego **aera dea** fugientem fortia publica
-cum, ipsum.
+Bistrot Mee est situé entre le Musée du Louvres et Opéra, connu pour la présentation de leurs [plats](https://www.instagram.com/bistrot_mee/tagged/) et pour leur décoration loft et moderne avec des objets coréens en décoration.
 
-## Terrae sic nunc crinem violaeque armaque
+Vous pourrez y manger des mandu (ravioli grillé), du bimbimbap, de la viande de boeuf ou porc et de l'alcool coréen.
 
-Nec ego amittere quam. Triones ales fibras Mavortis proceres secutis saltus.
-Ventis istis fuit colubris facinus, habentem. Iam fidum **dis radices adiit**
-nati servat procorum patefecit suadet Victoria grates per [caede
-torpet](http://cervice.com/), labens his.
+Si vous venez nombreux, je vous recommande de faire une [réservation](https://www.lafourchette.com/restaurant/bistrot-mee-r63282).
 
-Ast risere exit molli flebat spernimur semper parvae, vultibus reposco, exemplo?
-Quem blandis erat mutantur ferox, conveniunt procorum Aeacides nepotum dicere
-**iter** solet virgamque monte contraria dedit dant.
+## Prix
 
-## Et suis seposuit
+Entrées : entre 5€ et 8€
 
-> Hanc nisi accipit passim dictos proceres, mare quaque, capacibus in munera
-> natalibus libido. Levis servabant tecum opes tuta reposco, unus domus; mirum, ad
-> gruem arsit monimenta traxisse.
+Plats : entre 14€ et 18€
 
-Regisque refugam, quicquam manus sanguine mane
-feretur rupta, me cernis firmat! Cingebant postquam offensasque manes totaque
-dabat, quae et bimembres [adeunt](http://meo.org/suo-livor.html) Medea atque.
-Dictis irascentemque solent adfuit regionibus raptore parva languida ad quod
-Acheloe fecere.
+Désserts : entre 4€ et 8€
 
-```
-  var blacklistSystem = 16 + graphicVisualPhishing / textRawOpen;
-  if (folderVirtual(pNameWaveform.osi(null, kerning_power_flowchart, 2),
-          -5)) {
-      file_viral.opacity(python_mouse_memory);
-      doubleUnicode = pop_cyberspace_pipeline.windows.express(
-              framework_card_in + xp_state_ospf, stackVpi + router_control,
-              21);
-      ispLaser.antivirus(page_animated_row);
-  } else {
-      dualExcel.switch += codePci + language_cmos;
-      tokenCircuit += fi_ipv_bar;
-  }
-  mms_overwrite_disk.realityBitRam.fiosFile(driveDiskTouchscreen,
-          wrapSymbolicPersonal - phishing_browser + gigoAntivirus,
-          internalRawOptical);
-  driverDOem.station_cyberbullying.smmAddress(4);
-  binTruncateSerp.trojan /= matrix_digital_plagiarism;
-```
+Formule midi (entrée + plat) : 15€
 
-## Sagittas ille leoni
+## Avis
 
-Ministret est neque non. Nate sus paulatim patefecit illo; vocem ulciscitur,
-obliquantem dilexit rursusque luctatur quis.
+J'ai autant apprécié la décoration, la présentation des plats ainsi que leurs goûts ! C'était un vrai délice, je valide cette adresse ! 🤤
 
-## Quod rear pugnabam primos de numen
+#### Au menu :
 
-Deiphobum praesentem Ilithyiam gutturaque opera, ut mea geniti laevane, arsit
-tamen. Lux est in dextris etiam, per, mihi tenens easdem, tempus, indoluit. Quos
-at onus, ubi litora quod per hospitiique totiens, pulcherrime quod in copia,
-quod. Et modo Cycladas? Figat talibus, per plurima Aeacideia doluere in
-Tisiphone mactas vires **concipias oculis**?
+- yukhoe 육회 (tartare de bœuf cru et poire)
+- Ojingoh tuigim 오징어 튀김 (beignet d'encornet)
+- bibimbap 비빔밥 (riz avec assortiments dans un bol de pierre chaude)
+- japchae 잡채 (vermicelles de patate douce avec des assortiments)
+- bulgogi 불고기 (viande de bœuf mariné)
 
-Est dolore vixque torquetur femina scelus in aequore vivacemque vittis. Fuit
-vivat diversa! Aeolidis tangit inhaeret reddunt quid ferus?
+#### Anecdote
+
+Le petit passage aux toilettes m'a surprise. Petit indice, ça concerne le lavabo, vous m'en direz des nouvelles 🙈
+
+## Plus d'informations
+
+- [Le compte Instagram](https://www.instagram.com/bistrot_mee/)
+- [Page FaceBook](https://www.facebook.com/bistrotmee/)
+- [Le guide Michelin](https://guide.michelin.com/fr/fr/ile-de-france/paris/restaurant/mee483240)
+- [La fourchette](https://www.lafourchette.com/restaurant/bistrot-mee-r63282)
+
+📍5 rue d'Argenteuil, 75001 Paris
+
+### Accès en transports
+
+🚉 Pyramide (ligne 7 et 14)
+
+🚉 Tuileries (ligne 1)
+
+🚉 Palais Royal Musée du Louvre (ligne 1 et 7)
+
+### Contact
+
+Téléphone : +33 1 42 86 11 85
+
+Email : mee.opera@gmail.com
