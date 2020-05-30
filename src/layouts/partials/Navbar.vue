@@ -8,7 +8,7 @@
     }">
       <div class="block flex-grow flex items-center w-auto">
         <g-link to="/" class="nav-basic_link-home flex items-center flex-shrink-0 text-white mr-3">
-          <font-awesome :icon="['fas', 'cookie-bite']" class="mr-1 sm:ml-3"></font-awesome>
+          <g-image src="~/assets/lumy_foody.svg" class="w-4 mr-2"/>
           <span class="font-semibold text-xl tracking-tight">{{ $static.metadata.siteName }}</span>
         </g-link>
         <div class="text-sm flex-grow uppercase">

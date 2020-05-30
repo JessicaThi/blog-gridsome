@@ -45,11 +45,11 @@
       </div>
     </nav>
 
-    <div class="logo pt-0 pb-16 md:pb-32 md:pt-16 container mx-auto text-center text-white">
+    <div class="logo pt-0 pb-16 container mx-auto text-center text-white">
       <h2 class="m-0">
         <g-link to="/">
         <span class="text-4xl">
-          <font-awesome :icon="['fas', 'cookie-bite']" class="mb-1 mr-3"></font-awesome>
+          <g-image src="~/assets/lumy_foody.svg" class="my-0 mx-auto w-1/5"/>
         </span>
         <span class="text-5xl text-white">{{ $static.metadata.siteName }}</span>
         </g-link>
