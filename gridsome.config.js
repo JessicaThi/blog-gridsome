@@ -6,8 +6,7 @@
 
 module.exports = {
   siteName: "Lumy_foody",
-  siteDescription:
-    "Mes endroits enregistrés pour régaler vos envies gourmandes",
+  siteDescription: "Mes adresses favorites pour régaler vos envies gourmandes",
   siteUrl: "http://localhost:8080",
   plugins: [
     {
@@ -76,6 +75,12 @@ module.exports = {
             create: true,
           },
         },
+      },
+    },
+    {
+      use: "@gridsome/plugin-google-analytics",
+      options: {
+        id: "UA-XXXXXXXXX-X",
       },
     },
   ],

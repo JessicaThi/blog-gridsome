@@ -2,7 +2,7 @@
 title: Laïzé 来座製茶
 tags: Bubble tea, Taïwan
 category: Thé et café
-excerpt: Un des top des bubble tea à Paris
+excerpt: Mon bubble tea n°1 à Paris ❤️
 place: Paris, France
 address: 19 Rue de Montmorency, 75003 Paris
 created: 2020-05-28

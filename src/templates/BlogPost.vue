@@ -188,12 +188,12 @@ import PostListItem from "~/components/PostListItem.vue";
 
 export default {
   components: {
-    PostListItem
+    PostListItem,
   },
   metaInfo() {
     return {
-      title: this.$page.blog.title
+      title: this.$page.blog.title,
     };
-  }
+  },
 };
 </script>

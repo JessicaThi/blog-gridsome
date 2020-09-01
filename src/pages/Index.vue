@@ -68,11 +68,19 @@ import Pagination from "~/components/Pagination.vue";
 
 export default {
   metaInfo: {
-    title: "Blog - Home"
+    title: "Blog - Home",
   },
   components: {
     PostListItem,
-    Pagination
-  }
+    Pagination,
+  },
 };
 </script>
+
+<style>
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+</style>

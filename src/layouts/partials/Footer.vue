@@ -1,11 +1,11 @@
 <template>
   <nav class="relative bg-black py-4 text-sm text-gray-500">
     <div class="container mx-auto flex flex-wrap justify-between h-12 px-4 items-center">
-      <div class="w-full md:w-1/2 text-center md:text-left">
-      Copyright {{ currentYear }} by {{ $static.metadata.siteName }} 
-      | Design by <a href="https://ghost.org" target="_blank" class="hover:text-white">Ghost</a>
+      <div class="w-full text-center">
+      © Copyright {{ currentYear }} by {{ $static.metadata.siteName }} 
+      | Design inspired by <a href="https://ghost.org" target="_blank" class="hover:text-white">Ghost</a>
       </div>
-      <div class="w-full md:w-1/2">
+      <!-- <div class="w-full md:w-1/2">
       <ul class="list-none flex justify-center ml-0 md:justify-end">
 
         <li 
@@ -18,7 +18,7 @@
           <g-link v-else :to="element.link" >{{element.name}}</g-link>
         </li>      
       </ul>
-      </div>
+      </div> -->
     </div>
   </nav>
 </template>
@@ -41,7 +41,7 @@ export default {
   computed: {
     currentYear() {
       return new Date().getFullYear();
-    }
-  }
+    },
+  },
 };
 </script>
