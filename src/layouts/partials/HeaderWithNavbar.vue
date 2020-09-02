@@ -66,7 +66,7 @@
       <h2 class="m-0">
         <g-link to="/">
           <span class="text-4xl">
-            <g-image src="~/assets/lumy_foody.svg" class="my-0 mx-auto w-1/5" />
+            <g-image src="~/assets/lumy_foody.png" class="my-0 mx-auto w-1/5" />
           </span>
           <span class="text-5xl text-white">{{
             $static.metadata.siteName

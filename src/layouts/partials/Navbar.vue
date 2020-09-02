@@ -13,7 +13,7 @@
           class="nav-basic_link-home flex items-center flex-shrink-0 text-white mr-3"
         >
           <g-image
-            src="~/assets/lumy_foody.svg"
+            src="~/assets/lumy_foody.png"
             width="32"
             height="32"
             quality="75"
