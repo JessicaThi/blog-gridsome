@@ -22,8 +22,7 @@
     "sass-loader": "^8.0.2",
     "tailwindcss": "^1.2.0",
     "tailwindcss-gradients": "^3.0.0",
-    "tailwindcss-tables": "^0.4.0",
-    "v-tooltip": "^2.0.3"
+    "tailwindcss-tables": "^0.4.0"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.27",

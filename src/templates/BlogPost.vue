@@ -27,7 +27,7 @@
                   :key="author.id"
                   class="author-list-item"
                 >
-                  <g-link :to="author.path" v-tooltip="author.name">
+                  <g-link :to="author.path">
                     <g-image
                       :src="author.image"
                       :alt="author.name"
