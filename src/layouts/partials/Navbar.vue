@@ -1,24 +1,40 @@
 <template>
   <div class="fixed inset-0 h-16 bg-black">
-    <nav 
-    class="nav-basic flex items-center justify-between flex-wrap container mx-auto px-2 py-4 transition-all transition-500" 
-    v-bind:class="{
-      'opacity-100': !disableScroll && scrollPosition > headerHeight, 
-      'opacity-0': !disableScroll && scrollPosition < headerHeight
-    }">
+    <nav
+      class="nav-basic flex items-center justify-between flex-wrap container mx-auto px-2 py-4 transition-all transition-500"
+      v-bind:class="{
+        'opacity-100': !disableScroll && scrollPosition > headerHeight,
+        'opacity-0': !disableScroll && scrollPosition < headerHeight,
+      }"
+    >
       <div class="block flex-grow flex items-center w-auto">
-        <g-link to="/" class="nav-basic_link-home flex items-center flex-shrink-0 text-white mr-3">
-          <g-image src="~/assets/lumy_foody.svg" class="w-4 mr-2"/>
-          <span class="font-semibold text-xl tracking-tight">{{ $static.metadata.siteName }}</span>
+        <g-link
+          to="/"
+          class="nav-basic_link-home flex items-center flex-shrink-0 text-white mr-3"
+        >
+          <g-image
+            src="~/assets/lumy_foody.svg"
+            width="32"
+            height="32"
+            quality="75"
+            class="mr-2"
+          />
+          <span class="font-semibold text-xl tracking-tight">{{
+            $static.metadata.siteName
+          }}</span>
         </g-link>
         <div class="text-sm flex-grow uppercase">
-          <ul 
-          class="list-none flex justify-left ml-0 text-gray-300 uppercase transition-all transition-500">
+          <ul
+            class="list-none flex justify-left ml-0 text-gray-300 uppercase transition-all transition-500"
+          >
             <li
               :key="element.name"
-              v-for="(element,index) in $static.metadata.navigation"
+              v-for="(element, index) in $static.metadata.navigation"
               class="hover:text-white"
-              v-bind:class="{'mr-4' : index != Object.keys($static.metadata.navigation).length - 1}"
+              v-bind:class="{
+                'mr-4':
+                  index != Object.keys($static.metadata.navigation).length - 1,
+              }"
             >
               <a
                 :href="element.link"
@@ -26,32 +42,41 @@
                 target="_blank"
                 rel="noopener noreferrer"
                 class="animated-link"
-              >{{ element.name }}</a>
-              <g-link v-else :to="element.link" class="animated-link">{{element.name}}</g-link>
+                >{{ element.name }}</a
+              >
+              <g-link v-else :to="element.link" class="animated-link">{{
+                element.name
+              }}</g-link>
             </li>
           </ul>
         </div>
-        
+
         <div class="inline-block text-gray-400">
           <ul class="list-none flex justify-center ml-0 md:justify-end">
             <li class="mr-0 sm:mr-4">
-              <theme-switcher v-on="$listeners" :theme="theme"/>
+              <theme-switcher v-on="$listeners" :theme="theme" />
             </li>
             <li
               :key="element.name"
-              v-for="(element,index) in $static.metadata.social"
+              v-for="(element, index) in $static.metadata.social"
               class="hover:text-white hidden sm:block"
-              v-bind:class="{'mr-6' : index != Object.keys($static.metadata.social).length - 1}"
+              v-bind:class="{
+                'mr-6':
+                  index != Object.keys($static.metadata.social).length - 1,
+              }"
             >
               <span class="text-sm">
-                <a :href="element.link" target="_blank" rel="noopener noreferrer">
+                <a
+                  :href="element.link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <font-awesome :icon="['fab', element.icon]" />
                 </a>
               </span>
             </li>
           </ul>
         </div>
-
       </div>
     </nav>
   </div>
@@ -71,21 +96,21 @@ import ThemeSwitcher from "~/components/ThemeSwitcher";
 
 export default {
   components: {
-    ThemeSwitcher
+    ThemeSwitcher,
   },
   props: {
     disableScroll: {
       type: Boolean,
-      default: false
+      default: false,
     },
     theme: {
-      type: String
-    }
+      type: String,
+    },
   },
   data: function() {
     return {
       scrollPosition: null,
-      headerHeight: 0
+      headerHeight: 0,
     };
   },
 
@@ -95,7 +120,7 @@ export default {
     },
     setHeaderHeight(height) {
       this.headerHeight = height;
-    }
+    },
   },
 
   mounted() {
@@ -104,7 +129,7 @@ export default {
       this.setHeaderHeight(height);
       window.addEventListener("scroll", this.updateScroll);
     }
-  }
+  },
 };
 </script>
 

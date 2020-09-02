@@ -1,18 +1,28 @@
 <template>
   <Layout :hideHeader="true" :disableScroll="true">
-    <div class="container min-height-custom lg:pxi-0 mx-auto overflow-x-hidden pt-20 md:pt-24">
+    <div
+      class="container min-height-custom lg:pxi-0 mx-auto overflow-x-hidden pt-20 md:pt-24"
+    >
       <div class="flex flex-row flex-wrap items-center mx-4 sm:px-4">
         <div class="w-full md:w-1/6 mx-auto sm:mx-0">
           <g-image
             :src="$page.author.image"
+            width="36"
+            height="36"
+            quality="75"
             class="rounded-full bg-gray-200 w-32 h-32 border-4 border-gray-400 mx-auto md:mx-0"
           ></g-image>
         </div>
         <div class="w-full md:w-5/6 text-center md:text-left md:pl-8 lg:pl-0">
-          <h1 class="pb-0 mb-0 mt-0 text-4xl font-medium">{{ $page.author.name }}</h1>
-          <p class="text-gray-700 text-xl" v-if="$page.author.bio">{{ $page.author.bio }}</p>
+          <h1 class="pb-0 mb-0 mt-0 text-4xl font-medium">
+            {{ $page.author.name }}
+          </h1>
+          <p class="text-gray-700 text-xl" v-if="$page.author.bio">
+            {{ $page.author.bio }}
+          </p>
           <div class="author-social">
-            Publication de {{ $page.author.belongsTo.totalCount }} {{ postLabel }}
+            Publication de {{ $page.author.belongsTo.totalCount }}
+            {{ postLabel }}
             &nbsp;&middot;&nbsp;
             <a
               :href="$page.author.instagram"
@@ -45,7 +55,10 @@
         />
       </div>
 
-      <div v-if="$page.author.belongsTo.pageInfo.totalPages > 1" class="pagination flex justify-center mb-8" >
+      <div
+        v-if="$page.author.belongsTo.pageInfo.totalPages > 1"
+        class="pagination flex justify-center mb-8"
+      >
         <Pagination
           :baseUrl="$page.author.path"
           :currentPage="$page.author.belongsTo.pageInfo.currentPage"
@@ -117,18 +130,18 @@ import Pagination from "~/components/Pagination.vue";
 export default {
   components: {
     Pagination,
-    PostListItem
+    PostListItem,
   },
   computed: {
     postLabel: function() {
       var pluralize = require("pluralize");
       return pluralize("article", this.$page.author.belongsTo.totalCount);
-    }
+    },
   },
   metaInfo() {
     return {
-      title: this.$page.author.name
+      title: this.$page.author.name,
     };
-  }
+  },
 };
 </script>

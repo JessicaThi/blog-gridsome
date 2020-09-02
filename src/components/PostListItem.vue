@@ -1,11 +1,23 @@
 <template>
-  <div class="flex flex-post px-0 sm:px-4 pb-8 mb-8" v-bind:class="{'no-border': !border}">
+  <div
+    class="flex flex-post px-0 sm:px-4 pb-8 mb-8"
+    v-bind:class="{ 'no-border': !border }"
+  >
     <g-link :to="record.path" class="post-card-image-link">
-      <g-image :src="record.image" :alt="record.title" class="post-card-image"></g-image>
+      <g-image
+        :src="record.image"
+        :alt="record.title"
+        quality="85"
+        class="post-card-image"
+      ></g-image>
     </g-link>
     <div class="post-card-content">
       <g-link :to="record.path">
-        <p class="uppercase text-xs font-medium tracking-wide text-red-500 mt-3">{{ record.category.title }}</p>
+        <p
+          class="uppercase text-xs font-medium tracking-wide text-red-500 mt-3"
+        >
+          {{ record.category.title }}
+        </p>
         <h2 class="post-card-title mt-0 mb-3">
           {{ record.title }}
         </h2>
@@ -20,7 +32,8 @@
           :key="tag.id"
           :to="tag.path"
           class="text-sm rounded-full py-2 px-3 mr-1 font-medium text-yellow-200 bg-orange-400 bg-opacity-85 hover:text-red-500 hover:border-yellow-500"
-        >#{{ tag.title }}</g-link>
+          >#{{ tag.title }}</g-link
+        >
       </div>
       <!-- <div class="w-full post-card-meta pt-4">
       <div class="avatars">
@@ -55,8 +68,6 @@
 
       </div> -->
     </div>
-    
-    
   </div>
 </template>
 
@@ -66,11 +77,10 @@ export default {
     record: {},
     border: {
       type: Boolean,
-      default: true
-    }
-  }
+      default: true,
+    },
+  },
 };
 </script>
 
-<style>
-</style>
+<style></style>
